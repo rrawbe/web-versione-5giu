@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+}
+
+header {
+    background-color: #105483;
+    padding: 35px 16px 28px 16px;
+}
+
+.menugenerale {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listamenu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.listamenu ul a {
+    color: #fff;
+    font-size: 16px;
+    font-family: inter;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 150px 0px;
+}
+
+.testointerno {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testointerno p {
+    font-size: 21px;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.testointerno h2 {
+    font-size: 21px;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    color: #b7410e;
+}
+
+
+.contenuto h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #b7410e;
+    font-family: "Playfair Display";
+    font-family: serif;
+    padding: 64px 0;
+    
+}
+
+.contenuto h3 {
+    text-align: center;
+    font-size: 32px;
+    padding: 64px 0;
+    padding-top: 20px;
+}
+
+.contenuto h3 a {
+    color: #b7410e;
+    font-size: 20px;
+   
+}
+
+.galleria-immagini {
+    display: flex;
+    gap: 16px;
+}
+
+footer {
+    background-color: #105483;
+    padding: 46px 16px;
+    margin-top: 80px;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 35px;
+    margin-top: 32px;
+    padding-bottom: 150px;
+}
+
+.container-card img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenuto h2 a {
+    color: #b7410e;
+    font-family: inter;
+}
+
+@media (max-width:600px) /* o la misura che volete */  {
+    .galleria-immagini, .container-footer {
+        flex-direction: column;
+    }
+}
+
+.imgappstore {
+    display: flex;
+    gap: 40px;;
+    padding-top: 25px;
+}
+
+.flexfooter{
+    display: block!important;
+
+}
+
+.imgapplogo,
+.imgappstore {
+    display: flex;
+    align-items: center; }
+
+.imgapplogo {
+    justify-content: flex-end;
+}
+
+.immagine1 {
+    width: 100%;
+}
+
+.text-container {
+    position: absolute;
+    top: 65%;
+    color: white;
+    max-width: 1200px;
+}
+
+.titoloslider {
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    padding: 0px 0px 0px 320px;
+}
+
+.containerimage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    padding: 0px 0px 80px 0px;
+}
+
+.cardinziale {
+    width: 100%;
+}
+
+.titolocard {
+    color: #b7410e;
+    font-family: "Playifard Display";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gridcolumn2 {
+    width: 100%;
+}
+
+.paragrafocard {
+    color: black;
+    font-family: "Inter";
+    font-size: 23px;
+    font-weight: 400;
+    padding: 50px 0px 0px 0px;
+}
+
+.opere h1 {
+    color: #b7410e;
+    font-family: "Playfair Display";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 150px 0px 70px 0px;
+}
+
+.titolocard2 {
+    background-color: #105483;
+    color: #ffffff;
+    font-weight: 700!important;
+    font-family: "inter";
+    text-decoration: underline;
+    font-size: 11px!important;
+    padding: 20px;
+    text-align: center;
+}
+
+.immaginefooter2 {
+    padding: 100px 0px 100px 0px;
+}
+
+.cardinziale h2 {
+    color: #105483;
+    font-family: "Playfair Display";
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.ctaschedafooter {
+    padding: 50px 0px 0px 90px;
+    color: #000000;
+}
+
+.paragrafocardfooter {
+    font-family: "Inter";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    width: 80%;
+    padding: 0px 0px 0px 90px;
+}
+
+.containerimagefooter {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    gap: 90px;
+    padding: 20px 0px 80px 0px;
+}
+
+.apostrofocit {
+    font-size: 110px;
+    color: #105483;
+    font-family: 'Playfair Display';
+    padding: 0px;
+    margin:0px;
+    line-height: 0px ;
+}
+
+.titoloslidernero {
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    padding: 0px 0px 0px 320px;
+}
+
+.fontiniziale {
+    font-size: 25px
+}
+
+.cardinzialitour {
+    width: 70%;
+}
+
+.containerimagetour {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding: 0px 0px 80px 0px;
+    align-items: flex-start;
+}
+
+.mezzotrasporto {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Playfair display';
+}
